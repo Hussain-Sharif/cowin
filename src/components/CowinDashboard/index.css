@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.bg {
+  background-color: #161625;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.top img {
+  max-height: 50px;
+  max-width: 50px;
+}
+.top h1 {
+  color: #2cc6c6;
+  font-weight: bold;
+}
+h1 {
+  color: #fff;
+}
+.change-bg {
+  width: 95%;
+}
+ResponsiveContainer {
+  padding: 10px;
+}
